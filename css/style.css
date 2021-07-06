@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,span,a,i,button{
+    font-family: 'Oswald', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* ******************
+ Header Section CSS
+********************* */
+
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.header-content{
+    display: flex;
+    height: 100%;
+}
+.navbar span{
+    color: #DDCE51;
+    letter-spacing: 0.5px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+    color: #DDCE51;
+    transition: 0.3s;
+}
+.container-mini{
+    width: 570px;
+    margin: 0 auto;
+}
+.header-left,.header-right{
+    flex-basis: 50%;
+}
+.header-left{
+    background: #015761;
+}
+.head-left-content {
+    padding: 31% 0 31% 25%;
+}
+.head-left-content h4{
+    color: #DDCE51;
+    letter-spacing: 0.5px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.head-left-content h1 {
+    font-size: 76px;
+    line-height: 76px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.head-left-content h5{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.header-right{
+    background: url('../img/me.png') no-repeat center center;
+    background-size: cover;
+    margin-right: 10px;
+}
+.header-right ul{
+    padding-top: 40%;
+    float: right;
+    position: relative;
+    left: 1%;
+}
+.header-right ul li{
+    list-style: none;
+    padding:8px 15px;
+    background: #DDCE51;
+}
+.header-right ul li a{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.3s;
+}
+.header-right ul li a:hover{
+    color:#015761;
+    transition: 0.3s;
+}
+/* ***********
+ About Section CSS
+************* */
+
+.about {
+    background: #F1F0F0;
+    padding: 60px 0;
+    text-align: center;
+}
+.about-content h2{
+    color: #015761;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.about-content p{
+    color: #444;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.about-content a{
+    background: #F7DC4F;
+    padding: 12px 35px;
+    color: #015761;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.about-content a:hover{
+    color: #000;
+    transition: 0.3s;
+}
+
+/********************
+Banner Section CSS
+**********************/
+
+.banner{
+    padding: 60px 0;
+    text-align: center;
+}
+.banner h2{
+    color: #015761;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+.banner-img{
+    background: url('../img/banner.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/********************
+Gallery Section CSS
+**********************/
+
+.gallery{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.gallery h2{
+    color: #015761;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+.gallery-item{
+    display: flex;
+}
+.gallery-item>.item>img{
+    margin: 10px;
+}
+
+/********************
+Contact Section CSS
+**********************/
+
+.contact{
+    width: 100%;
+}
+.contact-content{
+    display: flex;
+    height: 100%;
+}
+.container-mini{
+    width: 570px;
+    margin: 0 auto;
+}
+.contact-left,.contact-right{
+    flex-basis: 50%;
+}
+.contact-left{
+    background: url('../img/me2.png') no-repeat center center;
+    background-size: cover;
+}
+.contact-right{
+    background: #015761;
+}
+.contact-right-content {
+    padding: 15% 0 20% 20%;
+}
+.contact-right-content h2{
+    font-size: 56px;
+    font-weight: 900;
+    color: #DDCE51;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.contact-right-content h3{
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact-right-content ul{
+    margin-bottom: 20px;
+}
+.contact-right-content ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.contact-social ul{
+    display: flex;
+    margin-bottom: 0px;
+}
+.contact-social ul li{
+    margin: 15px;
+}
+.contact-social ul li a{
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+}
+.contact-social ul li a:hover{
+    transition: 0.3s;
+    color: #DDCE51;
+}
+
+/* *****************
+Footer CSS
+********************/
+.footer{
+    background: #fff;
+    padding: 25px 0;
+}
+.footer p{
+    font-size: 18px;
+    color: #222;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
